@@ -51,7 +51,6 @@ void count_digis_whitespace_others()
     for(i=0;i<10;i++)
         printf(" %d", ndigit[i]);
     printf(",white space = %d, other= %d\n", nwhite, nother);
-    return 0;
 }
 
 void escapeUtil()
@@ -132,11 +131,13 @@ void reverse_2(char s[])
 
 void reverse_1(char *str)
 {
-   if (*str)
-   {
+
+    if (*str)
+    {
        reverse(str+1);
+
        printf("%c", *str);
-   }
+    }
 }
 
 void expandUtil()
@@ -177,7 +178,7 @@ void expand(char s1[],char s2[])
     printf("%s", s2);
 }
 
-void itoa(int n, char s[])
+void itoa_3(int n, char s[])
 {
     int i,sign;
     if((sign=n)<0)
@@ -192,19 +193,6 @@ void itoa(int n, char s[])
     reverse(s);
 }
 
-void itoa_2(int n, char s[]) {
-    int i, sign;
-    sign = n;
 
-    i = 0;
-    do {
-    //n cannot be negative
-        s[i++] = abs(n % 10) + '0';
-    } while ( n /= 10 );
-    //n
-    if (sign < 0)
-        s[i++] = '-';
 
-    s[i] = '\0';
-    reverse(s);
-}
+

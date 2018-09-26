@@ -10,5 +10,5 @@ void reverse_2(char s[]);
 void shellsort(int v[], int n);
 void expand(char s1[],char s2[]);
 void expandUtil();
-void itoa(int n, char s[]);
+void itoa_3(int n, char s[]);
 #endif // SECTION2_H_INCLUDED

@@ -23,7 +23,7 @@
 	<ctype.h>
 	"section3.h"
 
-1537770646 c:\users\tony\repos\c\c(the programming language(2nd edition)\tutorials\section3.h
+1537949542 c:\users\tony\repos\c\c(the programming language(2nd edition)\tutorials\section3.h
 
 1537757679 source:c:\users\tony\repos\c\c(the programming language(2nd edition)\tutorials\section2.c
 	<stdio.h>
@@ -31,4 +31,11 @@
 	"section2.h"
 
 1537757633 c:\users\tony\repos\c\c(the programming language(2nd edition)\tutorials\section2.h
+
+1537949423 source:c:\users\tony\repos\c\c(the programming language(2nd edition)\tutorials\section5.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+	"section3.h"
 

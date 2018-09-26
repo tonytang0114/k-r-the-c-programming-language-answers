@@ -46,6 +46,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="section3.h" />
+		<Unit filename="section4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="section4.h" />
+		<Unit filename="section5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="section5.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
